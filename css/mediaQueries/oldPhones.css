@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mobile {
+  display: block;
+}
+.wide-screen {
+  display: none;
+}
+body {
+  background-color: lightblue;
+}
+nav {
+  display: none;
+}
+.smallBackground {
+  height: 25vh;
+  width: 100%;
+  background: url("../../images/cloudy.jpg") center/cover;
+  display: flex;
+  justify-content: center;
+}
+.smallBackground .socialMedia {
+  margin-top: 0rem;
+}
+.socialMedia i {
+  visibility: visible;
+  color: black;
+  cursor: pointer;
+}
+.text-3d {
+  visibility: hidden;
+}
+.socialMedia1 {
+  display: none;
+}
+.myImage {
+  background-color: red;
+  height: 25vh;
+  width: 25vh;
+  border-radius: 12.5vh;
+  margin: auto;
+  background: url("../../images/myImage.jpg") center/cover;
+  margin-top: -55px;
+  margin-bottom: 2rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+.card {
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: lightblue;
+  text-align: center;
+  padding: 2rem;
+}

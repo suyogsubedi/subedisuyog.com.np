@@ -1,3 +1,64 @@
 .mobile {
   display: none;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wide-screen-hero-container {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+}
+nav {
+  color: white;
+  padding: 1%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 900;
+}
+nav ul li:hover {
+  border-bottom: 5px solid white;
+}
+.me-container {
+  color: white;
+}
+footer {
+  display: none;
+}
+.me-container {
+  padding-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.social-media {
+  padding-right: 4rem;
+}
+
+.line {
+  width: 2rem;
+  height: 0.5rem;
+  background-color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.social-media a:hover {
+  color: white;
+}
+.line:hover {
+  cursor: pointer;
+  background: rgb(0, 3, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 3, 255, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+}

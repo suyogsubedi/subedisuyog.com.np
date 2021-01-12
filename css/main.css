@@ -5,11 +5,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* scroll-behavior: smooth; */
 }
+
+
 .wide-screen-hero-container {
   min-width: 100%;
   min-height: 100vh;
   background-color: #000000;
+  color: white;
 }
 nav {
   color: white;
@@ -23,6 +27,13 @@ nav ul li {
   list-style: none;
   cursor: pointer;
   font-weight: 900;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+nav ul a:hover {
+  color: white;
 }
 nav ul li:hover {
   border-bottom: 5px solid white;
@@ -53,6 +64,7 @@ footer {
 .social-media a:hover {
   color: white;
 }
+
 .line:hover {
   cursor: pointer;
   background: rgb(0, 3, 255);
@@ -62,3 +74,37 @@ footer {
     rgba(2, 126, 251, 1) 100%
   );
 }
+
+/* About Container */
+.about-container {
+  width: 100%;
+  display: flex;
+
+  background-color: #000000;
+}
+.image-container {
+  width: 100%;
+}
+.image-container img {
+  width: 70%;
+}
+
+.about-me {
+  padding-top: 5rem;
+  color: white;
+  text-align: center;
+  margin-right: 15vw;
+  width: 50%;
+}
+
+.about-me img {
+  width: 3rem;
+}
+
+.certifications .btn {
+  margin-top: 0.5rem;
+  background-color: brown;
+  color: white;
+}
+
+ 

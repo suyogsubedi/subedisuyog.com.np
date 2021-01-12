@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+  color: white;
+}
+.title {
+  text-align: center;
+}
+.resolution-container {
+  color: black;
+  width: 50vw;
+  background-color: white;
+  margin: 3rem auto 0 auto;
+  text-align: center;
+}
+
+.hidden {
+  /* width: 90%; */
+  margin-left: 1rem;
+  display: none;
+}

@@ -8,3 +8,15 @@ gsap.from(".social-media", {
 TweenMax.to(".fullrotate", 1, {
   rotationX: "360",
 });
+
+// Light Mode
+
+// Script For Resolution page
+// toggle = document.querySelector("#toggle");
+// hidden = document.querySelector(".hidden");
+
+// toggle.addEventListener("click", () => {
+//   if ((hidden.style.display = "none")) {
+//     hidden.style.display = "block";
+//   }
+// });

@@ -7,19 +7,28 @@ body {
   background-color: #000000;
   color: white;
 }
-.title {
-  text-align: center;
+.resolution {
+  width: 100%;
+  display: flex;
+  margin-top: 10vw;
+  justify-content: center;
+  align-items: center;
 }
-.resolution-container {
-  color: black;
+.resolution img {
   width: 50vw;
-  background-color: white;
-  margin: 3rem auto 0 auto;
+  height: 50vh;
+}
+h1{
   text-align: center;
 }
-
-.hidden {
-  /* width: 90%; */
-  margin-left: 1rem;
-  display: none;
+.btn{
+  background-color: white;
+  display: flex;
+  width: 5rem;
+  margin: 1rem auto 0 auto;
+  text-align: center;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
 }

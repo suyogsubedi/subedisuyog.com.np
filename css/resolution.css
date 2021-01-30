@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
+.certificatebtn {
+  width: 10rem !important;
+}
 body {
   background-color: #000000;
   color: white;
@@ -18,17 +24,24 @@ body {
   width: 50vw;
   height: 50vh;
 }
-h1{
+h1 {
   text-align: center;
 }
-.btn{
+.btn {
   background-color: white;
   display: flex;
   width: 5rem;
   margin: 1rem auto 0 auto;
   text-align: center;
 }
-.btn:hover{
+.btn:hover {
   background-color: black;
   color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .resolution img {
+    object-fit: contain;
+  }
 }
